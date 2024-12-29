@@ -22,3 +22,8 @@ class EulerTheoremTable(Scene):
         rect = SurroundingRectangle(table.get_columns()[6], color=RED, buff=0.1)
         self.play(Create(rect))
         self.wait(3)
+
+def suma(a, b):
+    return a + b
+def resta(a, b):
+    return a - b
